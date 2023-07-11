@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;600&display=swap');
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #272121;
+    color: #F9F5F6;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#Signup {
+    margin-top: 20px; 
+    padding: 5px 15px;
+}
+
+.have-account {
+    margin-top: 20px;
+}
+
+
+.col-md-4 {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+
+.signup-image {
+    width: 100vh; /* Altura del viewport */
+    height: 100vh; /* Altura del viewport */
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.login-title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+ 
+#login-box {
+    margin-top: 140px;
+}
+

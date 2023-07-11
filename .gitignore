@@ -1,0 +1,13 @@
+**/.DS_Store
+
+staticfiles/
+
+*__pycache__/
+
+users/migrations/
+
+core/migrations/
+
+.env
+
+.vscode/

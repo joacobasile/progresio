@@ -1,0 +1,29 @@
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h1>Progresio <span>✅</span></h1>
+        <i class="bi bi-x-lg slidebar-closer" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+    </div>
+    <div class="offcanvas-body">
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3 slidebar-nav" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button type="button" class="btn btn-primary slidebar-option"><i class="bi bi-list-task"></i><a href="{% url 'core:home' %}">My Tasks</a></button>
+                    <button type="button" class="btn btn-primary slidebar-option"><i class="bi bi-calendar"></i><a href="{% url 'core:calendar' %}">Calendar</a></button>
+                </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="{{request.user.photo.url}}"  alt="UserPhoto" width="32" height="32" class="rounded-circle me-2">
+            <strong>Hi, {{request.user.name}} !</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small">
+            <li><a class="dropdown-item" href="{% url 'core:logout' %}">Log out</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
