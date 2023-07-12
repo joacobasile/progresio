@@ -1,5 +1,6 @@
 # Progresio ✅
 
+
 Progresio is a web-based task management application. Currently, it allows you to create, edit, update, and delete tasks from the dashboard. Additionally, there is a calendar feature where all your tasks are displayed.
 
 More features will be added in the near future, and eventually it will be available online. Progresio will always be open to listening to changes and proposals since its main objective is to learn Django, Git, and GitHub.
