@@ -51,6 +51,13 @@ This will start the server, and you can access your Django project by opening a 
 
 ### Example and Showcase
 
-<img src="examples/dashboard.png" width="740" align='center'/>
+<img src="examples/dashboard.png" width="740"/>
+<br>
+<img src="examples/dashboard-bar.png" width="740"/>
+<br>
+<img src="examples/calendar.png" width="740"/>
+<br>
+<img src="examples/login.png" width="740"/>
+<br>
  
 
