@@ -14,7 +14,7 @@ More features will be added in the near future, and eventually it will be availa
 
 3. Once you are in the desired directory, execute the following command to clone the repository: 
 
-	`git clone git@github.com:lucasarec/progresio.git`
+   		git clone git@github.com:lucasarec/progresio.git
 
 4.  After the cloning process is complete, navigate into the project directory using the `cd` command. 
 
