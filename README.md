@@ -6,6 +6,7 @@ Progresio is a web-based task management application. Currently, it allows you t
 More features will be added in the near future, and eventually it will be available online. Progresio will always be open to listening to changes and proposals since its main objective is to learn Django, Git, and GitHub.
 
 ### Installation
+<hr>
 ***Important***: the installation process may vary slightly between operating systems. Here, it is done in MacOS/Linux. 
 
 1. Open the terminal or command prompt on your computer.
@@ -50,6 +51,7 @@ This will start the server, and you can access your Django project by opening a 
 
 
 ### Example and Showcase
+<hr>
 
 <img src="examples/dashboard.png" width="740"/>
 <br>
